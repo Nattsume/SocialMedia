@@ -11,14 +11,7 @@ const store = createStore(rootReducer, applyMiddleware(thunk));
 
 import firebase from "firebase";
 const firebaseConfig = {
-  // Hide apiKey before uploading to git
-  apiKey: "AIzaSyA1wgM58i8odL3Ux3fhBP2usM77aETdONE",
-  authDomain: "instagram-clone-71cd1.firebaseapp.com",
-  projectId: "instagram-clone-71cd1",
-  storageBucket: "instagram-clone-71cd1.appspot.com",
-  messagingSenderId: "603463782790",
-  appId: "1:603463782790:web:9c0a938e6ca8992a531c07",
-  measurementId: "G-PWZJKFW0H8",
+  // Your setting config here
 };
 if (firebase.apps.length === 0) {
   firebase.initializeApp(firebaseConfig);
